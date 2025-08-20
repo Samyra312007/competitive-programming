@@ -7,8 +7,8 @@ int main()
 {
     string n;
     cin >> n;
-    int decn = stoi(n, nullptr, 2);
-    int cnt = 0;
+    long long decn = stoll(n, nullptr, 2);
+    long long cnt = 0;
     while (decn != 1)
     {
         if (decn % 2 == 0)
